@@ -1,3 +1,14 @@
+/*
+  Theme Name: DevFolio
+  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -41,9 +52,9 @@ a:hover {
 
 .box-shadow,
 .paralax-mf,
-.links-box,
+.service-box,
 .work-box,
-.card-announcements {
+.card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -221,7 +232,7 @@ a:hover {
 .ul-resect,
 .socials ul,
 .list-ico,
-.announcements-wrapper .post-meta ul,
+.blog-wrapper .post-meta ul,
 .box-comments .list-comments,
 .widget-sidebar .list-sidebar,
 .widget-tags ul {
@@ -497,11 +508,9 @@ a:hover {
 }
 
 .navbar-b .navbar-brand {
-  color: rgb(176, 81, 243);
-  font-size: 2rem;
-  font-weight: 900;
-
-  /* font-family: 'whisper'; */
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
@@ -695,38 +704,38 @@ a:hover {
 //--//-->   SERVICES
 ======================================*/
 
-.links-box {
+.service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
 
-.links-box:hover .ico-circle {
+.service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
-.links-box .links-ico {
+.service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
 }
 
-.links-box .ico-circle {
+.service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
 }
 
-.links-box .s-title {
+.service-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
 }
 
-.links-box .s-description {
+.service-box .s-description {
   color: #4e4e4e;
 }
 
@@ -857,11 +866,11 @@ a:hover {
 //--//-->   BLOG
 ======================================*/
 
-.card-announcements .card-body {
+.card-blog .card-body {
   position: relative;
 }
 
-.card-announcements .card-category-box {
+.card-blog .card-category-box {
   position: absolute;
   text-align: center;
   top: -16px;
@@ -871,7 +880,7 @@ a:hover {
   overflow: hidden;
 }
 
-.card-announcements .card-category {
+.card-blog .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
@@ -880,7 +889,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.card-announcements .card-category .category {
+.card-blog .card-category .category {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -889,20 +898,20 @@ a:hover {
   margin-bottom: 0;
 }
 
-.card-announcements .card-title {
+.card-blog .card-title {
   font-size: 1.3rem;
   margin-top: .6rem;
 }
 
-.card-announcements .card-description {
+.card-blog .card-description {
   color: #4e4e4e;
 }
 
-.card-announcements .post-author {
+.card-blog .post-author {
   display: inline-block;
 }
 
-.card-announcements .post-date {
+.card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
@@ -921,33 +930,33 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.announcements-wrapper .article-title {
+.blog-wrapper .article-title {
   font-size: 1.5rem;
 }
 
-.announcements-wrapper .post-meta {
+.blog-wrapper .post-meta {
   margin: 1rem 0;
 }
 
-.announcements-wrapper .post-meta ul {
+.blog-wrapper .post-meta ul {
   border-left: 4px solid #0078ff;
   margin-top: 1rem;
 }
 
-.announcements-wrapper .post-meta ul li {
+.blog-wrapper .post-meta ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.announcements-wrapper .post-meta ul a {
+.blog-wrapper .post-meta ul a {
   color: #0078ff;
 }
 
-.announcements-wrapper .post-meta ul span {
+.blog-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 
-.announcements-wrapper .blockquote {
+.blog-wrapper .blockquote {
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
@@ -1157,7 +1166,7 @@ footer .credits a {
   font-size: 1.2rem;
 }
 
-.button-rounded {
+.button-rouded {
   border-radius: 5rem;
 }
 
@@ -1180,7 +1189,7 @@ footer .credits a {
     padding-left: 0rem;
   }
 
-  .card-announcements {
+  .card-blog {
     margin-bottom: 3rem;
   }
 
@@ -1228,7 +1237,7 @@ footer .credits a {
     padding: 3rem;
   }
 
-  .announcements-wrapper .article-title {
+  .blog-wrapper .article-title {
     font-size: 1.9rem;
   }
 

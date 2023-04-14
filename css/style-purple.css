@@ -52,9 +52,9 @@ a:hover {
 
 .box-shadow,
 .paralax-mf,
-.service-box,
+.links-box,
 .work-box,
-.card-blog {
+.card-announcements {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -232,7 +232,7 @@ a:hover {
 .ul-resect,
 .socials ul,
 .list-ico,
-.blog-wrapper .post-meta ul,
+.announcements-wrapper .post-meta ul,
 .box-comments .list-comments,
 .widget-sidebar .list-sidebar,
 .widget-tags ul {
@@ -704,38 +704,38 @@ a:hover {
 //--//-->   SERVICES
 ======================================*/
 
-.service-box {
+.links-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
 
-.service-box:hover .ico-circle {
+.links-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #8400ff;
   box-shadow: 0 0 0 10px #e3c5ff;
 }
 
-.service-box .service-ico {
+.links-box .links-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
 }
 
-.service-box .ico-circle {
+.links-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
 }
 
-.service-box .s-title {
+.links-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
 }
 
-.service-box .s-description {
+.links-box .s-description {
   color: #4e4e4e;
 }
 
@@ -866,11 +866,11 @@ a:hover {
 //--//-->   BLOG
 ======================================*/
 
-.card-blog .card-body {
+.card-announcements .card-body {
   position: relative;
 }
 
-.card-blog .card-category-box {
+.card-announcements .card-category-box {
   position: absolute;
   text-align: center;
   top: -16px;
@@ -880,7 +880,7 @@ a:hover {
   overflow: hidden;
 }
 
-.card-blog .card-category {
+.card-announcements .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
@@ -889,7 +889,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.card-blog .card-category .category {
+.card-announcements .card-category .category {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -898,20 +898,25 @@ a:hover {
   margin-bottom: 0;
 }
 
-.card-blog .card-title {
+.card-announcements .card-title {
   font-size: 1.3rem;
   margin-top: .6rem;
 }
 
-.card-blog .card-description {
+.card-announcements .card-description {
   color: #4e4e4e;
 }
 
-.card-blog .post-author {
+.card-announcements .card-description a {
+  color: #8400ff;
+  text-decoration: underline;
+}
+
+.card-announcements .post-author {
   display: inline-block;
 }
 
-.card-blog .post-date {
+.card-announcements .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
@@ -930,33 +935,33 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.blog-wrapper .article-title {
+.announcements-wrapper .article-title {
   font-size: 1.5rem;
 }
 
-.blog-wrapper .post-meta {
+.announcements-wrapper .post-meta {
   margin: 1rem 0;
 }
 
-.blog-wrapper .post-meta ul {
+.announcements-wrapper .post-meta ul {
   border-left: 4px solid #8400ff;
   margin-top: 1rem;
 }
 
-.blog-wrapper .post-meta ul li {
+.announcements-wrapper .post-meta ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.blog-wrapper .post-meta ul a {
+.announcements-wrapper .post-meta ul a {
   color: #8400ff;
 }
 
-.blog-wrapper .post-meta ul span {
+.announcements-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 
-.blog-wrapper .blockquote {
+.announcements-wrapper .blockquote {
   border-left: 4px solid #8400ff;
   padding: 18px;
   font-style: italic;
@@ -1166,7 +1171,7 @@ footer .credits a {
   font-size: 1.2rem;
 }
 
-.button-rouded {
+.button-rounded {
   border-radius: 5rem;
 }
 
@@ -1189,7 +1194,7 @@ footer .credits a {
     padding-left: 0rem;
   }
 
-  .card-blog {
+  .card-announcements {
     margin-bottom: 3rem;
   }
 
@@ -1237,7 +1242,7 @@ footer .credits a {
     padding: 3rem;
   }
 
-  .blog-wrapper .article-title {
+  .announcements-wrapper .article-title {
     font-size: 1.9rem;
   }
 

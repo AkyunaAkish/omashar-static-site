@@ -96,7 +96,7 @@
 			strings: typed_strings.split(','),
 			typeSpeed: 80,
 			loop: true,
-			backDelay: 2500,
+			backDelay: 1100,
 			backSpeed: 30
 		});
 	}
