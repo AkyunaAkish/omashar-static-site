@@ -168,9 +168,14 @@ a:hover {
   margin: 0 auto;
 }
 
+.recommended-link {
+  padding-bottom: 5px;
+}
+
 .recommended-link a {
   color: #8400ff !important;
   text-decoration: underline;
+  padding-bottom: 5px;
 }
 
 .recommended-link a:hover {
@@ -1281,7 +1286,7 @@ footer .credits a {
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   .intro-single .intro-title {
