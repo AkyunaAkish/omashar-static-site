@@ -1239,7 +1239,7 @@ footer .credits a {
 .card-img img {
   height: 270px !important;
   width: 100%;
-  /* border: 2px solid green; */
+  max-width: 400px;
 }
 
 @media (min-width: 577px) {
@@ -1256,7 +1256,9 @@ footer .credits a {
 
   .card-announcements {
     margin-bottom: 3rem;
-    max-width: 445px;
+    /* uncomment when there are multiple announcement cards: */
+    /* max-width: 445px; */
+    text-align: center;
   }
 
   .contact-mf .box-pl2 {
